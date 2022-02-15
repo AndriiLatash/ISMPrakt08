@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ClassLibrary
 {
-    class Job
+    public class Job
     {
         public string CompanyName { set; get; }
         public Address Address;
