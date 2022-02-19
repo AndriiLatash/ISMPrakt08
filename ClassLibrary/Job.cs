@@ -14,7 +14,7 @@ namespace ClassLibrary
         public Job(string companyName, Address address, int salary, string workingHours)
         {
             CompanyName = companyName;
-            Address = address;
+            Address = new Address(address);
             Salary = salary;
             WorkingHours = workingHours;
 
